@@ -1,0 +1,72 @@
+.Navbar {
+  background-color: #f7f8f9;
+  width: 100%;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.Navbar .logo {
+  flex: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Navbar .logo img {
+  max-height: 60px;
+  max-width: 60px;
+  padding-right: 20px;
+}
+
+.Navbar .searchBar {
+  flex: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Navbar .userManagement {
+  flex: 20%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.Navbar .userManagement .links {
+  max-height: 80px;
+  padding-left: 10px;
+}
+
+.Navbar .userManagement .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: bolder;
+  margin-right: 30px;
+}
+
+.Navbar .userManagement .links button {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  height: 35px;
+  width: 80px;
+  border-radius: 40px;
+  border: 10;
+  border-color: red;
+  font-size: 15px;
+  font-weight: bolder;
+  outline: none;
+  cursor: pointer;
+}
+
+.noStyleBtn {
+  /* font-size: 100%;
+  font-family: inherit;
+  background-color: white;
+  border: 0;
+  padding: 0; */
+  all: unset;
+  cursor: pointer;
+}

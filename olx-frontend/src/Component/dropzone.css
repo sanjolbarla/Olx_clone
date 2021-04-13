@@ -1,0 +1,22 @@
+.dropzone {
+  width: 100%;
+  height: auto;
+  border-width: 2;
+  border-color: rgb(102, 102, 102);
+  border-style: dashed;
+  border-radius: 5;
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 20%;
+}
+
+.field {
+  margin: 8px;
+}
